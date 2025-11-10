@@ -1,0 +1,99 @@
+{
+    "params": {
+        "angle": {
+            "check": true,
+            "min": -20,
+            "max": 20
+        },
+        "font_size": {
+            "check": true,
+            "min": 33.85945945945946,
+            "max": 55.65405405405406
+        },
+        "wave_amplitude": {
+            "check": true,
+            "min": 5,
+            "max": 20
+        },
+        "wave_frequency": {
+            "check": true,
+            "min": 0.01314878892733564,
+            "max": 0.01660899653979239
+        },
+        "noise_strength": {
+            "check": true,
+            "min": 20,
+            "max": 80
+        },
+        "noise_caliber": {
+            "check": true,
+            "min": 1,
+            "max": 10
+        },
+        "bars_count": {
+            "check": true,
+            "min": 2,
+            "max": 10
+        },
+        "bars_opacity": {
+            "check": true,
+            "min": 50,
+            "max": 150
+        },
+        "diag_bars_count": {
+            "check": true,
+            "min": 2,
+            "max": 6
+        },
+        "diag_bars_opacity": {
+            "check": true,
+            "min": 40,
+            "max": 120
+        },
+        "circles_count": {
+            "check": true,
+            "min": 3,
+            "max": 8
+        },
+        "circles_opacity": {
+            "check": true,
+            "min": 30,
+            "max": 100
+        },
+        "water_freq": {
+            "check": false,
+            "min": 0.02,
+            "max": 0.08
+        },
+        "water_amp": {
+            "check": false,
+            "min": 5,
+            "max": 20
+        },
+        "lens_cell_size": {
+            "check": false,
+            "min": 15,
+            "max": 35
+        },
+        "lens_blur_radius": {
+            "check": false,
+            "min": 1,
+            "max": 3
+        },
+        "gradient_colors_count": {
+            "check": true,
+            "min": 2.45,
+            "max": 5
+        }
+    },
+    "booleans": {
+        "gradient_enabled": true,
+        "noise_colorized": true,
+        "bars_enabled": true,
+        "diag_bars_enabled": false,
+        "circles_enabled": false,
+        "water_enabled": false,
+        "lens_enabled": false,
+        "random_colors": true
+    }
+}
